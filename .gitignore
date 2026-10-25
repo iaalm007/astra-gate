@@ -1,0 +1,26 @@
+# Local planning documents
+开发计划.md
+整体架构图.md
+plans/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.yml
+*.pem
+*.key
+
+# Build outputs and runtime files
+/bin/
+/dist/
+/coverage/
+*.test
+coverage.out
+*.log
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
